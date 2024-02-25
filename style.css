@@ -1,0 +1,148 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #E1F0DA;
+}
+
+header {
+    background-color: #D4E7C5;
+    text-align: center;
+    color: #55674a;
+    padding: 1px;
+    font-size: 1rem;
+}
+
+#wrapItems {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#mainContainer {
+    background-color: #99BC85;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 18rem 12rem;
+    grid-template-rows: 10rem 15rem;
+    width: 30rem;
+    border-radius: 20px;
+    
+}
+#container {
+    margin-top: 0.8rem;
+    grid-row: span 2;
+    justify-self: center;
+    align-self:flex-start;
+    font-size: 1.3rem;
+}
+
+#container11, #container12 {
+    font-size: 0.9rem;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+}
+
+#btnDiv {
+    margin-top: 0.8rem;
+    justify-self: center;
+    align-self: center;
+}
+
+#btnId, #btn2Id{
+    margin: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #55674a;
+    color: #ffffff;
+    font-weight: bold;
+    height: 1.5rem;
+    width: 6rem;
+}
+
+#container_2 {
+    justify-self: center;
+    align-self: flex-start;
+    margin-top: 2rem;
+}
+
+#Output {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+#OutputMsg {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#dropDown {
+    background-color: #55674a;
+    color: #ffffff;
+    border: none;
+    height: 1.5rem;
+    width: 6rem;
+    border-radius: 5px;
+}
+
+@media (width <= 900px) {
+    #wrapItems {
+        justify-content: center;
+    }
+
+    #mainContainer {
+        display: grid;
+        grid-template-columns: 10rem 5rem;
+        grid-template-rows: 5rem 7.5rem;
+        width: 15rem;
+        
+    }
+    #container {
+        grid-row: span 2;
+        justify-self: center;
+        align-self:flex-start;
+        font-size: 0.6rem;
+    }
+    
+    #container11, #container12 {
+        font-size: 0.4rem;
+    }
+    
+    input {
+        font-size: 0.4rem;
+        height: 0.6rem;
+        width: 6rem;
+        border-radius: 2px;
+    }
+    #btnId, #btn2Id{
+        margin: 0.6rem;
+        height: 0.8rem;
+        width: 3rem;
+        font-size: 0.4rem;
+        border-radius: 2px;
+    }
+    
+    #container_2 {
+        margin-top: 1rem;
+    }
+    
+    #Output {
+        font-size: 0.7rem;
+        padding-bottom: 1rem;
+    }
+    
+    #OutputMsg {
+        font-size: 0.5rem;
+    }
+    
+    #dropDown {
+        font-size: 0.4rem;
+        height: 0.7rem;
+        width: 4rem;
+        border-radius: 2px;
+    }     
+}
